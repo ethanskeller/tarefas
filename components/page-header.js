@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const PageHeader = () => {
     return (
-        <nav className="bg-green-500 flex justify-end px-5 py-3">
+        <nav className="flex justify-end px-5 py-3">
             <a className="m-2">
                 <FontAwesomeIcon className="mr-3" size="lg" icon={'envelope'} fixedWidth />
             </a>
