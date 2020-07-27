@@ -1,3 +1,4 @@
+import './../fontawesome';
 import '../styles.css';
 
 function App({ Component, pageProps }) {
