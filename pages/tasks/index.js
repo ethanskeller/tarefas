@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/layout';
+import TaskItem from './task-item';
 
 const Tasks = () => {
     return (
@@ -31,9 +32,7 @@ const Tasks = () => {
             </nav>
             <div>
                 <p className="text-upper mb-3">Current</p>
-                <div className="block bg-white">
-                    Item
-                </div>
+                <TaskItem />
             </div>
         </Layout>
     );
